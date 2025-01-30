@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/src/css/fonts.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tapsi Demo</title>
+</head>
+
+<body>
+    <!-- Hero Section-------------------------------------------------------------------------------- -->
+    <section class="hero-section">
+        <picture>
+            <source srcset="/assests/images/banner.webp" type="image/webp" media="(min-width: 768px)">
+            <source srcset="/assests/images/banner.jpg" type="image/jpg" media="(min-width: 768px)">
+            <source srcset="/assests/images/banner-mobile.webp" type="image/webp" media="(max-width: 768px)">
+            <source srcset="/assests/images/banner-mobile.jpg" type="image/jpg" media="(max-width: 768px)">
+            <img alt="banner" src="/assests/images/banner.jpg" class="banner-img">
+        </picture>
+        <picture>
+            <!-- <source srcset="/assests/images/mockup-phone.webp" type="image/webp" media="(min-width: 1024px)"> -->
+            <source srcset="/assests/images/mockup-phone.png" type="image/png" media="(min-width: 1024px)">
+            <img alt="phone" class="banner-phone" aria-label="banner phone">
+        </picture>
+        <div class="hero-wrapper container">
+            <div class="intro-btn">
+                <h1>تپسی</h1>
+                <h2>اپلیکیشن درخواست خودرو و پیک</h2>
+                <div class="intro-wrapper">
+
+                    <div class="intro-btn__passenger btn--primery-passenger">
+                        <span class="icon">
+                            <svg class="icon">
+                                <use xlink:href="/assests/images/svg-sprite.svg#arrow-black"></use>
+                            </svg>
+                        </span>
+                        <p>
+                            دانلود اپلیکیشن مسافر
+                        </p>
+                    </div>
+                    <div class="intro-btn__passenger btn--primery-passenger">
+                        <span class="icon">
+
+                            <svg class="icon">
+                                <use xlink:href="/assests/images/svg-sprite.svg#arrow"></use>
+                            </svg>
+                        </span>
+                        <p>
+
+                            وب اپلیکیشن مسافر
+                        </p>
+                    </div>
+                    <div class="intro-btn__passenger btn--secondry-passenger">
+                        <span class="icon">
+                            <svg class="icon">
+                                <use xlink:href="/assests/images/svg-sprite.svg#arrow-black"></use>
+                            </svg>
+                        </span>
+                        ثبت نام راننده خودرو
+                    </div>
+                    <div class="intro-btn__passenger btn--secondry-passenger">
+                        <span class="icon">
+                            <svg class="icon">
+                                <use xlink:href="/assests/images/svg-sprite.svg#arrow"></use>
+                            </svg>
+                        </span>
+                        ثبت نام راننده موتور
+
+                    </div>
+                    <!-- <div class="intro-btn__passenger btn--secondry-passenger intro--app-driver">دانلود اپلیکیشن رانندگان</div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
